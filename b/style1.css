@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url(./image/family.webp);
+}
+.col{
+    margin: 70px 0;
+    display: flex;
+    justify-content: center;
+}
+.row{
+    padding: 0 30px;
+}
+input{
+    width: 280px;
+    border: 0;
+    border-bottom: 1px ridge black;
+    margin: 10px;
+}
+#add{
+    /* border: 10px solid rgb(218, 112, 14); */
+   
+    width: 400px;
+    height: 230px;
+    border-radius: 30px;
+    padding: 20px;
+    /* margin-left: 50px; */
+    text-align: center;
+    background: transparent;
+}
+#bal{
+    font-size: 60px;
+    width: 400px;
+    height: 230px;
+    padding: 70px 0;
+    border-radius: 30px;
+    text-align: center;
+    background: transparent;
+}
+.header{
+    display: flex;
+    height: 100px;
+    width: 100%;
+    padding: 10px;
+    background-color: transparent;
+    color: rgb(50, 17, 238);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+}
+.header a{
+    text-decoration: none;
+    color: rgb(199, 193, 202);
+    padding: 10px 12px;
+    font-size: 22px;
+    margin-top: 26px;
+}
+.header a:hover{
+    border-bottom: 2px solid orange;
+}
+.header div{
+    margin: 25px;
+}
+.header h1{
+    margin-left: 100px;
+}
+marquee{
+    font-size:larger;
+    color: rgb(213, 228, 13);
+}
+table,tr,td,th{
+    border: 2px solid rgb(34, 21, 21);
+}
+#intable{
+    background-color: rgb(87, 141, 65);
+    color: rgb(49, 42, 20);
+}
+#extable{
+    background-color: rgb(202, 80, 32);
+}
+th{
+    width: 300px;    
+}
+
+
+.header button{
+    width: 70px;
+    height: 35px;
+    border: 0;
+    border-radius: 5px;
+    background-color: rgb(71, 71, 153);
+}
+button{
+    width: 150px;
+    height: 30px;
+    border: 0;
+    border-radius: 5px;
+    box-shadow: 0 0 2px;
+}
+button:hover{
+    scale: 1.01;
+}
